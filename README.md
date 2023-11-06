@@ -8,7 +8,7 @@ A syntax extension to JavaScript
 => JavaScript + XML/HTML
  
 JSX코드 예제
-const element = <h1>Hello, world!</h1>
+const element = ```<h1>Hello, world!</h1>```
 
 JSX의 역할
 내부적으로 xml/html코드를 Java Script로 변환하는 과정을 거침 -> React.createElement
@@ -18,7 +18,7 @@ JSX의 역할
 JSX를 사용하면 장점들이 많기 때문에 편리함
 
 JSX를 사용한 코드
-const element = ( <h1 className="greeting">Hello, world!</h1>)
+const element = ( ```<h1 className="greeting">Hello, world!</h1>``` )
 
 JSX를 사용하지 않은 코드
 const element = React.createElement( 'h1', { className:'greeting' }, 'Hello, world!' )
