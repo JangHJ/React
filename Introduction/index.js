@@ -19,6 +19,7 @@ setInterval(() => {
 }, 1000);
 
 //CommentList.jsx
+import CommentList from './chaptor_05/CommentList';
 ReactDOM.render(
   <React.StrictMode>
     <CommentList />
