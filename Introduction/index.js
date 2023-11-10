@@ -17,3 +17,11 @@ setInterval(() => {
     document.getElementById('root')
   );
 }, 1000);
+
+//CommentList.jsx
+ReactDOM.render(
+  <React.StrictMode>
+    <CommentList />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
