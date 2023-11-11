@@ -26,3 +26,13 @@ ReactDOM.render(
   </React.StrictMode>,
   document.getElementById('root')
 );
+
+//NotificationList.jsx
+import NotificationList from './chaptor_06/NotificationList';
+ReactDOM.render(
+  <React.StrictMode>
+    <NotificationList />
+  </React.StrictMode>,
+  document.getElementById('root')
+);
+
